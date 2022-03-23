@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
 
-        <!-- Global site tag (gtag.js) - Google Analytics 구글 분석기 저장! -->
+        <!-- Global site tag (gtag.js) - Google Analytics 구글 분석기(애널라틱스) 저장! -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-V0307RDNNH"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -48,8 +48,20 @@
     <body>
         <h1><a href ="index.html">WEB</a></h1>
 
+        <!-- body태그를 가져와서 거기의 스타일을 변경하는 버튼 (두줄을 쓰려면 마지막에 ;)-->
+        <input 
+        type="button" 
+        value="DARK" 
+        onclick="document.querySelector('body').style.backgroundColor='black';
+        document.querySelector('body').style.color='white';">
+        <input 
+        type="button" 
+        value="WHITE" 
+        onclick="document.querySelector('body').style.backgroundColor='white';
+        document.querySelector('body').style.color='black';">
+
         <div id="container">
-            <div>
+                        <div>
                 <ol>
                     <li><a href="1.html">html</a></li>
                     <li><a href="2.html">css</a></li>
