@@ -40,7 +40,7 @@ javaScript는 동적으로. 사용자와 상호작용 함
   
     연산자(operator) : + - * /
   
-    floor : 소수점 버림
+    소수점 버림 : floor
   
     ex) console.log(Mate.floor(1.9)); //콘솔창에 1이 표시
  
@@ -59,3 +59,18 @@ javaScript는 동적으로. 사용자와 상호작용 함
   
       `Hello
       World` //실제 나타내는 값에서도 줄바꿈
+  
+    문장의 길이를 알고 싶을 때 : length
+  
+    ex) console.log('Hello World'.length); //콘솔창에 11표시
+  
+    문장을 수정하고 싶을 때 : replace
+  
+    ex) console.log('Hell World'.replace('Hell', 'Hello'); //콘솔창에 Hello World 표시
+  
+    두 문장을 합칠 때 : '' + ''
+  
+    ex) console.log('Hello' + 'World'); //콘솔창에 HelloWorld 표시
+
+<variable>
+  
